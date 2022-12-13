@@ -91,6 +91,7 @@ body {
     border-radius: 50%;
     line-height: 40px;
     margin-left: 10px;
+    transition: 0.3s;
 }
 
 .container .information .social a:hover {
