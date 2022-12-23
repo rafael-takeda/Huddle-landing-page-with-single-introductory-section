@@ -1,4 +1,19 @@
-@media (max-width: 768px){
+@media (max-width: 1280px) {
+    .container .information .about {
+        color: #fff;
+        margin-top: 50px;
+    } 
+
+    .container .information {
+        padding: 50px 0 50px 50px;
+    }
+
+    .container .information .about h2 {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 900px){
     .container { 
         flex-direction: column;
         background: var(--primary1) url('../images/bg-mobile.svg') no-repeat center;
